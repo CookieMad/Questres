@@ -37,7 +37,7 @@ public class Pech extends AppCompatActivity {
     }
 
     public void Runer(View view) {
-        Intent i = new Intent();
+        Intent i = new Intent(Pech.this, Rune.class);
         startActivity(i);
     }
 }

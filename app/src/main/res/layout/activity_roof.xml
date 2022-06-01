@@ -23,20 +23,20 @@
             android:textSize="25sp" />
 
         <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:onClick="ender"
+            android:text="Войти"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+
+        <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="78dp"
             android:text="Назад"
             android:onClick="haller"
-            android:textSize="30sp" />
-
-        <Button
-            android:id="@+id/button12"
-            android:layout_width="match_parent"
-            android:layout_height="78dp"
-            android:onClick="ender"
-            android:visibility="invisible"
-            android:text="Войи"
             android:textSize="30sp" />
 
 

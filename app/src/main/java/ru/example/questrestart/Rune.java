@@ -19,5 +19,6 @@ public class Rune extends AppCompatActivity {
     public void kitchen(View view) {
         Intent i = new Intent(Rune.this, Kitchen.class);
         startActivity(i);
+        Person.gotRune = true;
     }
 }

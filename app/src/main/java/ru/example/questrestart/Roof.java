@@ -16,7 +16,7 @@ public class Roof extends AppCompatActivity {
         setContentView(R.layout.activity_roof);
 
         if(Person.gotRune){
-            Button b = findViewById(R.id.button11);
+            Button b = findViewById(R.id.button12);
             b.setVisibility(View.VISIBLE);
         }
     }
