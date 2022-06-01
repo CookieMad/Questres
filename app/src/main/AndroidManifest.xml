@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.example.questrestart">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuestRestart">
+        <activity
+            android:name=".End"
+            android:exported="false" />
+        <activity
+            android:name=".fireStone"
+            android:exported="false" />
+        <activity
+            android:name=".Food"
+            android:exported="false" />
+        <activity
+            android:name=".Rune"
+            android:exported="false" />
+        <activity
+            android:name=".Pech"
+            android:exported="false" />
+        <activity
+            android:name=".Roof"
+            android:exported="false" />
+        <activity
+            android:name=".MainRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Kitchen"
+            android:exported="false" />
+        <activity
+            android:name=".Door"
+            android:exported="false" />
+        <activity
+            android:name=".OpenedChest"
+            android:exported="false" />
+        <activity
+            android:name=".Hall"
+            android:exported="false" />
+        <activity
+            android:name=".Chest"
+            android:exported="false" />
+        <activity
+            android:name=".nextLife"
+            android:exported="false" />
+        <activity
+            android:name=".Death"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Start"
+            android:exported="false" />
+        <activity
+            android:name=".bedroome"
+            android:exported="false"
+            android:label="@string/title_activity_bedroome"
+            android:theme="@style/Theme.QuestRestart.NoActionBar" />
+        <activity
+            android:name=".Bedroom"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
