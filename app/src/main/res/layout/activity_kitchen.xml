@@ -31,20 +31,20 @@
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/button1"
-            android:layout_width="match_parent"
-            android:layout_height="78dp"
-            android:onClick="haller"
-            android:text="Назад"
-            android:textSize="30sp" />
-
-        <Button
             android:id="@+id/button8"
             android:layout_width="match_parent"
             android:layout_height="78dp"
             android:onClick="fooder"
             android:text="посмотреть в ящиках"
             android:textSize="27sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:onClick="haller"
+            android:text="Назад"
+            android:textSize="30sp" />
 
 
     </LinearLayout>
