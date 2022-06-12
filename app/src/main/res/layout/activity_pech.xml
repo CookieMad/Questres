@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pech">
+    tools:context=".Pech"
+    android:background="@drawable/back">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="678dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,7 +19,7 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="571dp"
+            android:layout_height="507dp"
             android:text="Ты видишь перед собой средневековую печку, которая скорее подходит для кузнечного дела чем для еды. Ты мог бы её использовать, но тебе нужна форма, материал, и какое-нибудь топливо"
             android:textSize="25sp" />
 
@@ -26,9 +27,9 @@
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:onClick="Runer"
             android:text="Выковать Руну"
             android:textSize="30sp"
-            android:onClick="Runer"
             android:visibility="invisible" />
 
         <Button

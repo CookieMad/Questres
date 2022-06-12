@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:onClick="starter"
-    android:background="#1B001A"
+    android:background="@drawable/back"
     >
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RESTART"
-        android:textColor="#EDF5E1"
+        android:textColor="@color/purple_500"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

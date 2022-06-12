@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Hall">
+    tools:context=".Hall"
+    android:background="@drawable/back">
 
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="678dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +20,7 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="432dp"
+            android:layout_height="wrap_content"
             android:text="Ты видишь перед собой длинный коридор с пятью дверями. Четыре по бокам и одна в конце коридора, причем все подписаны кроме одной.  Сам коридор не очень то и красив: голые деревянные стены, пыльный пол, малоосвещенные углы где прячется если не вселенское зло, то хотя-бы паук или страшный жук. Внезапно, кто-то постучал в дверь, стоящую в конце коридора. "
             android:textSize="25sp" />
 
@@ -64,8 +65,7 @@
             android:layout_height="60dp"
             android:onClick="doorer"
             android:text="Подойти к двери"
-            android:textSize="30sp"
-            />
+            android:textSize="30sp" />
 
     </LinearLayout>
 

@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Kitchen">
+    tools:context=".Kitchen"
+    android:background="@drawable/back">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="678dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,7 +19,7 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="497dp"
+            android:layout_height="445dp"
             android:text="Ты  открываешь дверь и видишь перед собой ужасный беспорядок, но стоит тебе переступить через порог как вся пыль улетает в угол, а раскиданные ящики встают около стенки. Входишь ты уже в уютную, средневековую кухню. Массивная каменная печь, ящички с продуктами. "
             android:textSize="25sp" />
 
@@ -26,8 +27,8 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="78dp"
-            android:text="Подойти к печи"
             android:onClick="Pecher"
+            android:text="Подойти к печи"
             android:textSize="30sp" />
 
         <Button

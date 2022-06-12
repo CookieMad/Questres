@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:onClick="starter"
+    android:background="@drawable/back"
 
     >
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="678dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,17 +21,18 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="563dp"
-            android:text="Ты, не слишком успешный человек, полжизни отдавший бухгалтерии и ничего особенного не добившийся. Твоим величайшим достижением была девушка, что завтра должна была стать твоей женой, а сейчас кинула тебя и летит на юг с каким-то мажорчиком в самолете. Медленно проходя мимо стройки, ты думаешь о своей никчемной жизни, как внезапно замечаешь прохожих. Все они в ужасе застыли устремив взгляд куда-то вверх. Ты тоже посмотрел на небо… Железные строительные балки – вот последнее что ты увидел перед своей смертью……"
+            android:layout_height="wrap_content"
+            android:text="Ты, офисный клерк почти ничего не добившийся. Твоим величайшим достижением была девушка, что завтра должна была стать твоей женой, а сейчас кинула тебя и летит на юг с каким-то мажорчиком в самолете. Медленно проходя мимо стройки, ты думаешь о своей никчемной жизни, как внезапно замечаешь прохожих. Все они в ужасе застыли устремив взгляд куда-то вверх. Ты тоже посмотрел на небо… Железные строительные балки – вот последнее что ты увидел перед своей смертью……"
             android:textSize="25sp" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="84dp"
+            android:layout_height="74dp"
+            android:onClick="nextLife"
+            android:background="@color/black"
             android:text="Что дальше?"
-            android:textSize="30sp"
-            android:onClick="nextLife"/>
+            android:textSize="30sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

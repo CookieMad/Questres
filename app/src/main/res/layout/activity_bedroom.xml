@@ -2,24 +2,26 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
     >
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="678dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/back">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="571dp"
+            android:layout_height="519dp"
             android:text="Ты просыпаешься в кровати. Неужели это был сон? Спросонья ты медленно открываешь глаза и смотришь на мир, где у тебя ничего не осталось... Внезапно, ты понимаешь что оказался отнюдь не у себя дома. Ты осматриваешься вокруг себя и видишь средневековое крестьянское убранство. Пол стены и потолок сделаны из темного дерева. Рядом с кроватью ты замечаешь сундук, а также дверь в противоположной стороне комнаты."
             android:textSize="25sp" />
 
@@ -27,17 +29,17 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:onClick="hall"
             android:text="Выйти из комнаты"
-            android:textSize="30sp"
-            android:onClick="hall"/>
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:onClick="chest"
             android:text="Проверить сундук"
-            android:textSize="30sp"
-            android:onClick="chest"/>
+            android:textSize="30sp" />
 
     </LinearLayout>
 

@@ -5,11 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fireStone">
+    tools:context=".fireStone"
+    android:background="@drawable/back">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="678dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,16 +37,16 @@
             android:layout_width="match_parent"
             android:layout_height="78dp"
             android:onClick="doger"
-            android:visibility="invisible"
             android:text="Дать собаке еды"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:visibility="invisible" />
 
         <Button
             android:id="@+id/button11"
             android:layout_width="match_parent"
             android:layout_height="78dp"
-            android:text="Взять уголь"
             android:onClick="coaler"
+            android:text="Взять уголь"
             android:textSize="30sp"
             android:visibility="gone" />
 

@@ -5,11 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainRoom">
+    tools:context=".MainRoom"
+    android:background="@drawable/back">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="678dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +20,7 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="571dp"
+            android:layout_height="wrap_content"
             android:text="Ты входишь в просторную гостевую комнату или зал. Стены увешаны выженными картинами или заставлены пустыми книжными полками. Сквозь грязное окно еле пробивается дневной свет. В центре одной из стен ты видишь камин. Слева от него стоит каменная статуя в виде собаки, почему-то привязанная на цепь, а справа, только каменные обломки. В самом камине можно разглядеть красныные угли, но они не горят. Их как будто кто-то перекрасил в красный."
             android:textSize="25sp" />
 
@@ -27,8 +28,8 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="78dp"
-            android:text="Назад"
             android:onClick="haller"
+            android:text="Назад"
             android:textSize="30sp" />
 
         <Button
