@@ -27,16 +27,27 @@
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:background="@drawable/button"
             android:onClick="Runer"
+            android:scaleX="0.95"
             android:text="Выковать Руну"
             android:textSize="30sp"
             android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/back" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:background="@drawable/button"
             android:onClick="backtoKitchen"
+            android:scaleX="0.95"
             android:text="Назад"
             android:textSize="30sp" />
 

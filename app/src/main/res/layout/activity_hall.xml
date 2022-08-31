@@ -27,43 +27,81 @@
         <Button
             android:id="@+id/button6"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
             android:onClick="bedroom"
+            android:scaleX="0.95"
             android:text="В спальню"
             android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/back" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
             android:onClick="kitchen"
+            android:scaleX="0.95"
             android:text="На кухню"
             android:textSize="30sp"
             android:visibility="visible" />
 
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/back" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
             android:onClick="mainer"
+            android:scaleX="0.95"
             android:text="В зал"
             android:textSize="30sp"
             android:visibility="visible" />
 
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/back" />
+
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
             android:onClick="roofer"
+            android:scaleX="0.95"
             android:text="На чердак"
             android:textSize="30sp"
             android:visibility="visible" />
 
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/back" />
+
         <Button
             android:id="@+id/button7"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
             android:onClick="doorer"
+            android:scaleX="0.95"
             android:text="Подойти к двери"
             android:textSize="30sp" />
 

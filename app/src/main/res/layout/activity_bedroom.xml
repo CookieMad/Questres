@@ -29,15 +29,26 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:background="@drawable/button"
             android:onClick="hall"
+            android:scaleX="0.95"
             android:text="Выйти из комнаты"
             android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/back" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:background="@drawable/button"
             android:onClick="chest"
+            android:scaleX="0.95"
             android:text="Проверить сундук"
             android:textSize="30sp" />
 

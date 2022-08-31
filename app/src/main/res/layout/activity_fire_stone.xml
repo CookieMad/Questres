@@ -28,15 +28,26 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:background="@drawable/button"
             android:onClick="back"
+            android:rotationX="0.95"
             android:text="Назад"
             android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/back" />
 
         <Button
             android:id="@+id/button10"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:background="@drawable/button"
             android:onClick="doger"
+            android:scaleX="0.95"
             android:text="Дать собаке еды"
             android:textSize="30sp"
             android:visibility="invisible" />
@@ -45,7 +56,9 @@
             android:id="@+id/button11"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:background="@drawable/button"
             android:onClick="coaler"
+            android:scaleX="0.95"
             android:text="Взять уголь"
             android:textSize="30sp"
             android:visibility="gone" />

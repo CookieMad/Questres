@@ -27,7 +27,9 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:background="@drawable/button"
             android:onClick="kitchen"
+            android:scaleX="0.95"
             android:text="Назад"
             android:textSize="30sp" />
 

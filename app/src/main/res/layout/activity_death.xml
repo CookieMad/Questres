@@ -29,8 +29,9 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="74dp"
+            android:background="@drawable/button"
             android:onClick="nextLife"
-            android:background="@color/black"
+            android:scaleX="0.95"
             android:text="Что дальше?"
             android:textSize="30sp" />
 
